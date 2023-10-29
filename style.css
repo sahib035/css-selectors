@@ -1,20 +1,45 @@
 /* universal selector */
-*{
+/* *{
     color: rgb(226, 11, 11);
-}
-/* decendent selector by class name */
-.page h1{
-    color: green;
-}
-/* child selctor */
-.page>h2{
-    background-color: aqua;
-}
-/* adjisant sibling selector */
-h2+p{
-    color: blueviolet;
-}
-/* general simbling selector */
-h2~p{
-    color: black;
+} */
+
+/* typeselector */
+/* single selector */
+
+/* span{
+    color: red;
+} */
+
+/* multiple selector */
+/* h1,span{
+    color: red;
+} */
+
+/* class selector */
+/* .interest{
+    color: red;
+} */
+/* ID SELECTOR */
+/* #my-div{
+    color: red;
+} */
+
+/* CHILD SELECTOR */
+/* span>p{
+    color: red;
+} */
+
+/* DECENDANT SELECTOR */
+/* div p{
+    color: red;
+} */
+
+/* ADJESANT SIBLING SELECTOR */
+/* h1+p{
+    color: red;
+} */
+
+/* GENERAL SIBLING SELECTOR */
+h1~P{
+    color: red;
 }
